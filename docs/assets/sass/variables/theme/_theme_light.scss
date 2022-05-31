@@ -236,6 +236,7 @@ $colorPickerPreviewWidth:2rem;
 $colorPickerPreviewHeight:2rem;
 $colorPickerBg:#323232;
 $colorPickerBorderColor:#191919;
+$colorPickerBorder:1px solid #191919 !default;
 $colorPickerHandleColor:#ffffff;
 
 //togglebutton
@@ -299,6 +300,7 @@ $calendarHeaderBorder:$divider;
 $calendarHeaderTextColor:$textColor;
 $calendarHeaderFontWeight:500;
 $calendarHeaderCellPadding:.5rem;
+$calendarMonthYearHeaderHoverTextColor: $primaryColor !default;
 
 $calendarCellDatePadding:.5rem;
 $calendarCellDateWidth:2.5rem;
@@ -628,6 +630,7 @@ $progressBarHeight:4px;
 $progressBarBorder:0 none;
 $progressBarBg:rgba($primaryColor, .32);
 $progressBarValueBg:$primaryColor;
+$progressBarValueTextColor:$primaryTextColor !default;
 
 //menu (e.g. menu, menubar, tieredmenu)
 $menuWidth:12.5rem;
@@ -803,6 +806,20 @@ $dockBorder: 1px solid rgba(255,255,255,0.2) !default;
 $dockPadding: .5rem .5rem !default;
 $dockBorderRadius: .5rem !default;
 
+//image
+$imageMaskBg:rgba(0,0,0,0.9) !default;
+$imagePreviewToolbarPadding:1rem !default;
+$imagePreviewIndicatorColor:#f8f9fa !default;
+$imagePreviewIndicatorBg:rgba(0,0,0,0.5) !default;
+$imagePreviewActionIconBg:transparent !default;
+$imagePreviewActionIconColor:#f8f9fa !default;
+$imagePreviewActionIconHoverBg:rgba(255,255,255,0.1) !default;
+$imagePreviewActionIconHoverColor:#f8f9fa !default;
+$imagePreviewActionIconWidth:3rem !default;
+$imagePreviewActionIconHeight:3rem !default;
+$imagePreviewActionIconFontSize:1.5rem !default;
+$imagePreviewActionIconBorderRadius:50% !default;
+
 :root {
     --surface-a:#ffffff;
     --surface-b:#fafafa;
@@ -813,8 +830,39 @@ $dockBorderRadius: .5rem !default;
     --text-color:#{$textColor};
     --text-color-secondary:#{$textSecondaryColor};
     --primary-color:#{$primaryColor};
-    --primary-menu-text-color:#{$primaryMenuTextColor};
-    --primary-lightest-color:#{$primaryLightestColor};
     --primary-color-text:#{$primaryTextColor};
     --font-family:#{$fontFamily};
+    --surface-0: #ffffff;
+    --surface-50: #FAFAFA;
+    --surface-100: #F5F5F5;
+    --surface-200: #EEEEEE;
+    --surface-300: #E0E0E0;
+    --surface-400: #BDBDBD;
+    --surface-500: #9E9E9E;
+    --surface-600: #757575;
+    --surface-700: #616161;
+    --surface-800: #424242;
+    --surface-900: #212121;
+    --gray-50: #FAFAFA;
+    --gray-100: #F5F5F5;
+    --gray-200: #EEEEEE;
+    --gray-300: #E0E0E0;
+    --gray-400: #BDBDBD;
+    --gray-500: #9E9E9E;
+    --gray-600: #757575;
+    --gray-700: #616161;
+    --gray-800: #424242;
+    --gray-900: #212121;
+    --content-padding:#{$panelContentPadding};
+    --inline-spacing:#{$inlineSpacing};
+    --border-radius:#{$borderRadius};
+    --surface-ground:#fafafa;
+    --surface-section:#ffffff;
+    --surface-card:#ffffff;
+    --surface-overlay:#ffffff;
+    --surface-border:#rgba(0,0,0,.12);
+    --surface-hover:rgba(0,0,0,.04);
+    --maskbg: #{$maskBg};
+    --focus-ring: #{$focusShadow};
 }
+

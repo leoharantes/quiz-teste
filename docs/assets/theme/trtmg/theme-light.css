@@ -1,3 +1,4 @@
+@charset "UTF-8";
 :root {
   --surface-a:#ffffff;
   --surface-b:#fafafa;
@@ -6730,4 +6731,20 @@ h2, h3, h4, h5 {
   font-size: 12px;
   padding-left: 5px;
   display: block;
+}
+
+.p-badge.p-badge-info {
+  background-color: #0378d5;
+  /* Acessibilidade: Cor alterada para constraste mínimo necessário entre background e texto */
+}
+
+.p-badge.p-badge-success {
+  background-color: #4d841d;
+  /* Acessibilidade: Cor alterada para constraste mínimo necessário entre background e texto */
+}
+
+fieldset {
+  border: none;
+  margin: 0 0 2rem 0;
+  padding: 0;
 }
