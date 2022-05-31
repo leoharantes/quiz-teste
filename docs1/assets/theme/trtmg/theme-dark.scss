@@ -1,0 +1,46 @@
+$primaryColor:#ffffff;
+$primaryLightestColor: #DDDDDD;
+$primaryTextColor:#212121;
+$accentColor:#7684ff;
+$accentTextColor:#212121;
+$tableEvenColor: #333333;
+
+@import '../../sass/theme/theme_dark';
+
+.p-link, h2, h3, h4, h5, h6 {
+    color: #00ff00 !important;
+}
+
+a {
+    text-decoration: underline;
+    color: #FFF333 !important;
+}
+
+.p-breadcrumb ul li .p-menuitem-text{
+    color: #FFF333 !important;
+}
+
+.layout-menu-dark {
+    .menu-wrapper .layout-menu-container .layout-menu li ul li a{
+        color: #FFF333;
+        i {
+            text-decoration: none !important;
+        }
+    }
+    .layout-topbar a,
+    .p-megamenu .p-menuitem-link .p-menuitem-text{
+        color: #FFF333;
+    }
+    .layout-topbar {
+        border-bottom: 2px solid #999999;
+        .layout-topbar-right .layout-topbar-actions-left .layout-megamenu.p-megamenu .p-megamenu-root-list > .p-menuitem > .p-menuitem-link .p-menuitem-text {
+            color: #FFF333 !important;
+        }
+    }
+    .layout-menu-container{
+        border-right: 2px solid #999999;
+    }
+    .card, .box {
+        border: 2px solid #999999;
+    }
+}

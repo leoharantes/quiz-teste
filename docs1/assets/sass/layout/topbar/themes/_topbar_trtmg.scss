@@ -1,0 +1,13 @@
+.layout-topbar-trtmg {
+    $topbarBgColor: #01426A; 
+    $topbarLeftBgColor: #fff;
+
+    $topbarMenuButtonBgColor:#212121;
+    $topbarMenuButtonTextColor:#ffffff;
+
+    $topbarItemTextColor: #ffffff;
+    $topbarItemTextHoverBgColor: rgba(0,0,0,.12);
+
+    @import '../_topbar_exports';
+    @import '../_topbar_theme';
+}

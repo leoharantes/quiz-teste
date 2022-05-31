@@ -1,0 +1,30 @@
+/* Add your variable customizations of theme here */
+$fontFamily:Arial,Helvetica Neue Light,Helvetica Neue,Helvetica,Lucida Grande,sans-serif;
+
+$colors: (
+    "darkblue": #01426A,
+    "blue": #0067A0,
+    "teal": #007B5F,
+    "green": #00B388,
+    "yellow": #FFCD00,
+    "lightyellow": #FBDB65,
+    "cyan": #00BCD4,
+    "pink": #E91E63,
+    "indigo": #4E5FBB,
+    "orange": #FF9800,
+    "bluegray": #607D8B,
+    "purple": #9C27B0
+);
+
+//table
+$tableHeaderCellBg:$primaryColor;
+$tableHeaderCellTextColor:$primaryTextColor;
+$tableHeaderCellHoverBg:$primaryLightestColor;
+$tableHeaderCellTextHoverColor:$primaryTextColor;
+$tableHeaderCellIconColor:$primaryTextColor;
+$tableHeaderCellIconHoverColor:$primaryTextColor;
+$tableHeaderCellHighlightBg:$primaryLightestColor;
+$tableHeaderCellHighlightTextColor:$primaryTextColor;
+$tableHeaderCellHighlightHoverBg:$primaryLightestColor;
+$tableHeaderCellHighlightTextHoverColor:$primaryTextColor;
+$tableBodyRowEvenBg: $tableEvenColor;

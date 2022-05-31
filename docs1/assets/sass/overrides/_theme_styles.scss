@@ -1,0 +1,53 @@
+/* Add your customizations of the theme here */
+.p-column-filter .pi{
+    color: $primaryTextColor;
+}
+
+.p-datatable .p-sortable-column:focus {
+    background-color: $primaryColor;
+}
+
+h2, h3, h4, h5{
+    color: $primaryColor !important;
+}
+
+@font-face {
+    font-family: "Aller";
+    font-style: bold;
+    font-weight: 700;
+    src: local("Aller Bold"), local("Aller-Bold"), url("../../layout/fonts/aller-bold.woff2") format("woff2"), url("../../layout/fonts/aller-bold.woff") format("woff");
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+
+@font-face {
+  font-family: "BebasNeue";
+  font-style: normal;
+  font-weight: 700;
+  src: local("BebasNeue Normal"), local("BebasNeue-Normal"), url("../../layout/fonts/bebasneue-regular.woff2") format("woff2"), url("../../layout/fonts/bebasneue-regular.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+.app-main-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.app-logo-initials {
+    color: $primaryColor;
+    font-weight: normal;
+    font-family: BebasNeue;
+    font-size: 30px;
+    border-right: 3px solid $primaryColor;
+    padding-right: 5px;
+    height: 35px;
+}
+
+.app-logo-name, .app-logo-tribunal {
+    color: $primaryColor;
+    font-weight: bold;
+    font-family: Aller;
+    font-size: 12px;
+    padding-left: 5px;
+    display: block;
+}

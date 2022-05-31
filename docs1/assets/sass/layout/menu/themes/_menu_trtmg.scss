@@ -1,0 +1,16 @@
+.layout-menu-trtmg {
+    $menuBgColor:#007B5F;
+
+    $rootMenuTextColor:#ffffff;
+
+    $menuItemTextColor:#ffffff;
+    $menuItemHoverBgColor:rgba(255,255,255,.15);
+    $activeMenuItemTextColor:#ffffff;
+    $activeMenuItemBgColor: rgba(255,255,255,.24);
+
+    $inlineMenuBorderColor: rgba(255,255,255,.24);
+
+    @import '../_menu_exports';
+    @import '../_menu_theme';
+}
+
